@@ -593,7 +593,7 @@ abstract class PickerAdapter<T> {
       //alignment: Alignment.center,
         child: DefaultTextStyle(
             overflow: TextOverflow.ellipsis,
-            maxLines: 1,
+            maxLines: 2,
             textAlign: picker.textAlign,
             style: picker.textStyle ??
                 TextStyle(
@@ -625,7 +625,7 @@ abstract class PickerAdapter<T> {
       //alignment: Alignment.center,
         child: DefaultTextStyle(
             overflow: TextOverflow.ellipsis,
-            maxLines: 1,
+            maxLines: 2,
             textAlign: picker.textAlign,
             style: picker.textStyle ??
                 TextStyle(color: _txtColor, fontSize: _txtSize),
